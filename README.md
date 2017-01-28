@@ -40,4 +40,20 @@ Digitaler Mitgliedsantrag könnete den Eintritt in den Verein vereinfachen.
 ## Technische Aspekte der Datenbank
 * Postgres Datenbank
 * GraphQL Schnittstelle
-* Daten 
+
+### Verein
+* id
+* name
+* Stadt
+### Training
+* id
+* Sportart
+* Trainer
+* Zeiten ??
+* Trainingsort
+* longitude
+* latitude
+* geschlecht
+* telefon
+* mail
+
