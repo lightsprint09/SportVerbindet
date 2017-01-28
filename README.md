@@ -25,6 +25,8 @@ Die Web Platform soll folgende folgende Kriterien erfüllen.
 ## Stufe 3 (optinal)
 Interaktion von Vereinen mit Mitgliedern.
 
+Vereine sollen einen einfach Kanal haben, der Mitglieder über Ereignisse benachrichtet. So können Versammlungen, Trainingsausfälle oder ähnliches Komuniziert werden. Hier geht es nicht darum einen neuen Kanal zu schaffen, sondern bestehende Kanäle(Mail, SMS, WhatsApp, Facebook, etc) zu bündeln. 
+
 
 ## Stufe 4 (optinal)
 Digitaler Mitgliedsantrag könnete den Eintritt in den Verein vereinfachen.
@@ -40,6 +42,7 @@ Digitaler Mitgliedsantrag könnete den Eintritt in den Verein vereinfachen.
 ## Technische Aspekte der Datenbank
 * Postgres Datenbank
 * GraphQL Schnittstelle
+* Leichter Export in gänige druckebare Formate (zum verteilen an Mitglieder)
 
 ### Verein
 * id
@@ -48,6 +51,7 @@ Digitaler Mitgliedsantrag könnete den Eintritt in den Verein vereinfachen.
 ### Training
 * id
 * Sportart
+* Altersgruppe
 * Trainer
 * Zeiten ??
 * Trainingsort
@@ -57,3 +61,4 @@ Digitaler Mitgliedsantrag könnete den Eintritt in den Verein vereinfachen.
 * telefon
 * mail
 
+##
